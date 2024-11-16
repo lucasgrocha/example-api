@@ -1,0 +1,7 @@
+fastapi==0.106.1
+uvicorn==0.22.0
+sqlalchemy==2.0.20
+pymysql==1.0.3
+pydantic==2.0.0
+requests==2.28.2
+inquirer==3.1.1
