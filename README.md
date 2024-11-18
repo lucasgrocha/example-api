@@ -21,6 +21,10 @@ pip install -r requirements.txt
 
 ### Database
 
+```shell
+docker run -e MYSQL_ALLOW_EMPTY_PASSWORD=yes -e MYSQL_ROOT_HOST=% -p 3306:3306 -v mysql_data:/var/lib/mysql --name mysql -d mysql:latest
+```
+
 ```sql
 -- Create the database
 CREATE DATABASE test_db;
